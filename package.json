@@ -1,0 +1,36 @@
+{
+  "name": "ark-item-db",
+  "version": "0.0.1",
+  "homepage": "https://github.com/gamehaxors/ark-item-db",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/gamehaxors/ark-item-db/blob/master/LICENSE"
+  },
+  "description": "Ark: Survival Evolved Cheat Code Generator",
+  "author": "Game Haxors",
+  "repository": "https://github.com/gamehaxors/ark-game-db.git",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --progress --colors --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.5.4",
+    "classnames": "^2.1.2",
+    "eventemitter3": "^1.1.1",
+    "flux": "^2.0.3",
+    "lodash": "^3.9.3",
+    "object-assign": "^3.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^5.6.15",
+    "babel-loader": "^5.3.1",
+    "clipboard": "^1.5.8",
+    "node-libs-browser": "^0.5.2",
+    "react": "^0.14.7",
+    "react-bootstrap": "^0.28.3",
+    "react-dom": "^0.14.7",
+    "webpack": "^1.10.1"
+  },
+  "private": true
+}

@@ -1,0 +1,15 @@
+
+
+.rows-striped .row:nth-child(odd), .rows-striped .row-fluid:nth-child(odd) {
+    background-color: #3a424b;
+  margin: 10px 0 0 0;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.rows-striped .row:nth-child(even), .rows-striped .row-fluid:nth-child(even) {
+    background-color: #181b1e;
+  margin: 10px 0 0 0;
+  border-radius: 8px;
+  padding: 8px;
+}

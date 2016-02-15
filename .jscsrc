@@ -1,0 +1,8 @@
+{
+    "preset": "airbnb",
+    "requireDotNotation": false,
+    "requireCurlyBraces": null,
+    "excludeFiles": ["node_modules/**"],
+    "verbose": true,
+    "esnext": true
+}
